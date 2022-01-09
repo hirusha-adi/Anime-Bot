@@ -1,0 +1,92 @@
+{
+    "PleaseWaitEmbed":{
+        "AUTHOR_NAME":"NSFW Discord Bot",
+        "AUTHOR_URL":"",
+        "TITLE":"Please Wait",
+        "DESCRIPTION":"``` Processing Your Request ```",
+        "COLOR":"red",
+        "THUMBNAIL":"https://c.tenor.com/I6kN-6X7nhAAAAAj/loading-buffering.gif",
+        "FOOTER":"Bot created by ZeaCeR#5641"
+    },
+    
+    "ERROR":{
+        "TITLE":":red_square: Error!",
+        "DESCRIPTION":"The command was unable to run successfully! ",
+        "THUMBNAIL":"https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png",
+        "FIELD_NAME":"Error:",
+        "COLOR":"red"
+    },
+
+    "COMMON":{
+        "COLOR":"red"
+    },
+    "HELP":{
+        "THUMBNAIL": "https://cdn.discordapp.com/attachments/877796755234783273/929697981626716190/Help-Logo.png",
+        "COLOR": "red"
+    },
+
+    "OTHER": {
+
+        "MissingPermissionError":{
+            "title":"ERROR",
+            "description":"`You don't have the permissions required to use this command!`",
+            "thumbnail-link":"https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png"
+        },
+
+        "MissingRequiredArgumentError": {
+            "title":"Something is wrong!",
+            "description":"An error has been occured!",
+            "thumbnail-link":"https://cdn.discordapp.com/attachments/877796755234783273/879298565380386846/sign-red-error-icon-1.png",
+            "Filed1":{
+                "name":"Error",
+                "value":"You haven't passed the needed arguments for this command to run properly"
+            },
+            "Field2":{
+                "name":"Possible Fix",
+                "value":"use `{}help all` to list out all the command and check the proper usage of the command you used"
+            }
+        },
+        
+        "ping": {
+            "title":"Response Time",
+            "thumbnail-link":"https://cdn.discordapp.com/attachments/877796755234783273/879311068097290320/PngItem_1526969.png",
+            "Field1": {
+                "name": "Ping :timer:",
+                "value": "{} ms"
+            }
+        },
+
+        "uptime": {
+            "Field1": {
+                "name":"The bot was online for: ",
+                "value": ":alarm_clock: {}"
+            }
+        },
+
+        "clean": {
+            "If-Correct-Value": {
+                "title":"Success!",
+                "Field1": {
+                    "name":"Action",
+                    "value": "Deleted {} {} sent by {}!"
+                }
+            },
+            "Else": {
+                "Field1": {
+                    "name": "Error:",
+                    "value": "Please enter a value below {}!"
+                }
+            }
+        },
+
+        "help": {
+            "title": ":gear: Help",
+            "fields": {
+                "Available Commands": "{prefix}lesbian\n{prefix}anal\n{prefix}feet\n{prefix}hentai\n{prefix}boobs\n{prefix}tits\n{prefix}blowjob\n{prefix}lewd\n{prefix}daddy"
+            }
+        }
+
+
+    
+    }
+}
